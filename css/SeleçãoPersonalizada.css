@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parteTopo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;;
+    color: #0D3B57;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.coluna1, .coluna2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+     color: #0D3B57;
+  
+    
+    
+}
+.interesses{
+    display: flex;
+     justify-content: space-between;
+   
+    
+}
+
+.formulario{
+    
+    border: rgba(0, 0, 0, 0.253) 1px solid;
+    height: 100%;
+    width: 100%;
+}
+.conteiner{
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    height: 200vw;
+    width: 50vw;
+    
+    
+}
