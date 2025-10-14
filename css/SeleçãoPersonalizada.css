@@ -8,14 +8,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    
     min-height: 100vh;
-    background: linear-gradient(to bottom, #F4F8F9, #E0E4E7); 
+    background: linear-gradient(to bottom, #cddef3, #F4F8F9, #6e8eb8); 
     padding: 20px;
 }
 .parteTopo h1 {
     font-size: 2.2em;
     margin-bottom: 25px;
+   
     
     
 }
@@ -26,6 +27,7 @@ body {
     font-style: italic;
     align-self: flex-start; 
     display: block;
+    text-transform: capitalize;
     
     
 }
@@ -43,7 +45,7 @@ body {
     margin-bottom: 20px;
    text-shadow: 1px 1px 1px rgba(13, 59, 87, 0.781);
     font-size: 1.2em;
-    border-bottom: 2px solid #C4D3DD;
+    border-bottom: 2px solid #2b5f81;
 }
 
 
@@ -55,8 +57,11 @@ body {
     max-width: 800px;
     padding: 20px;
     border-radius: 8px;
-    flex-grow: 1;
+    
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .formulario {
@@ -64,11 +69,13 @@ body {
     height: 100%;
     width: 100%;
     padding: 15px;
+    padding-left: ;
 }
 
 .interesses {
     display: flex;
     justify-content: space-between;
+   
 }
 
 .coluna1, .coluna2 {
@@ -111,19 +118,22 @@ body {
 .botao{
     margin-top: 0px;
     background-color: #0D3B57;
-    padding: 10px 30px;
-    border-radius: 5px;
+    padding: 10px 40px;
+    border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
-    font-weight: bold;
+    font-weight: bolder;
     align-self: flex-end;
-    margin-right: 20%;
+    margin-right: 2%;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.4s ease;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
 .botao:hover{
     background-color: #1a5e8f; 
+    
 }
 
 .botao a{
@@ -133,7 +143,7 @@ body {
 }
 
 .botao a:hover{
-    color: rgb(224, 186, 81);
+    
 }
 
 @media (max-width: 600px) {
