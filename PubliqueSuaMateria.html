@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publique|InfoMais</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/PubliqueSuaMateria.css">
+</head>
+<body>
+    <div class="container">
+       <div class="topo">
+            <h2>Publique sua Matéria</h2>
+        </div>
+        <div class="formulario">
+            <form action=" \AdicionarDepois\ " method="post"></form>
+                <label for="titulo"></label>
+                <input type="text" id="titulo" name="titulo" placeholder="Digite o título:" required>
+
+                <label for="autor"></label>
+                <input type="text" id="autor" name="autor" placeholder="Digite seu nome:" required>
+
+                <label for="Digite o conteúdo"></label>
+                <textarea id="conteudo" name="conteudo" rows="40" placeholder="Digite o conteúdo aqui:" required></textarea>
+
+                
+                <label for="img">Adicione a imagem:</label>
+    
+                 <div class="custom-file-input-wrapper">
+                  <input type="file" id="img" name="img" accept="image/*" required>
+        
+                   <label for="img" class="custom-button">
+                         Escolher Arquivo
+                     </label>
+        
+                <span class="file-name">Nenhum arquivo selecionado.</span>
+    </div>
+
+    </div>
+
+                
+   </div>  
+</body>
+</html>

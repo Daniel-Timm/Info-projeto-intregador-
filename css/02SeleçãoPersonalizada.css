@@ -10,7 +10,7 @@ body {
     align-items: center;
     
     min-height: 100vh;
-    background: linear-gradient(to bottom, #cddef3, #F4F8F9, #6e8eb8); 
+    background: linear-gradient(to bottom, #d9e0e7, #5b7597, #0D3B57);
     padding: 20px;
 }
 .parteTopo h1 {
@@ -69,7 +69,7 @@ body {
     height: 100%;
     width: 100%;
     padding: 15px;
-    padding-left: ;
+    
 }
 
 .interesses {
