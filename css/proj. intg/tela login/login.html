@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        
+        .login-container {
+            background-color: #ffffff; 
+            border: 1px solid #ccc; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            width: 110%;
+            max-width: 450px; 
+            border-radius: 4px; 
+            overflow: hidden; 
+        }
+
+        
+        .login-header {
+            background-color: #0b2447; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+       
+        .login-body {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            display: flex; 
+    flex-direction: column; 
+        }
+
+
+        .login-body form {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 15px; 
+            width: 100%; 
+        }
+
+
+
+
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; 
+            font-size: 1em;
+        }
+
+        
+        .btn-continue {
+            background-color: #0b2447; 
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            align-self: center; 
+            width: 60%; 
+        }
+
+        .btn-continue:hover {
+            background-color: #1a4d7d; 
+        }
+
+        
+        .register-link {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+
+        .register-link a {
+            color: #0b2447; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .social-login {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 13px;
+        }
+
+        
+.social-icon {
+    width: 45px; 
+    height: 45px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+}
+
+        
+.social-logo {
+   width: 65%; 
+    height: 65%; 
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.social-logo.logo-facebook {
+    width: 710%; 
+    height: 520%; 
+}
+
+
+.social-logo.logo-x {
+    width: 340%; 
+    height: 580%; 
+}
+
+
+.social-logo.logo-google {
+    width: 90%;
+    height: 70%;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-header">
+            FAÇA LOGIN
+        </div>
+
+        <div class="login-body">
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <input type="email" id="email" class="login-input" placeholder="Digite seu email:" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="password" class="login-input" placeholder="Digite sua senha:" required>
+                </div>
+
+                <button type="submit" class="btn-continue">
+                    Continue
+                </button>
+            </form>
+
+            <div class="register-link">
+                Não tem conta? <a href="">Cadastre-se aqui</a> ou escolha as opções:
+            </div>
+
+
+            <div class="social-login">
+    <a href="#" class="social-icon" aria-label="Login com Google">
+        <img src="download.png" alt="Logo do Google" class="social-logo logo-google">
+    </a>
+
+    <a href="#" class="social-icon" aria-label="Login com Facebook">
+        <img src="facebook-logo-facebook-icon-transparent-free-png.webp" alt="Logo do Facebook" class="social-logo logo-facebook">
+    </a>
+
+    <a href="#" class="social-icon" aria-label="Login com X">
+        <img src="2fb909b74a854f0715e64dda5825990d-removebg-preview.png" alt="Logo do X" class="social-logo logo-x">
+    </a>
+</div>
+</div>
+
+        </div>
+    </div>
+
+</body>
+</html>
